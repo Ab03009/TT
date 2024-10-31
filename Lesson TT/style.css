@@ -1,0 +1,82 @@
+#A {
+color: red;
+font-size: 20 px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#B {
+        color: blue;
+}
+
+#C {
+    color: orange;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 300px;
+}
+
+td{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.white{
+    background-color: white;
+}
+
+
+.class1{
+    background-image: url("img.jpg.webp");
+    background-repeat:repeat;
+    width: 100%;
+    height: 200px;
+    border: solid 1px black;
+    color: white;
+}
+.class2{
+    background-image: url("img.jpg.webp");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    width: 100%;
+    height:200px;
+    border: solid 1px black;
+    
+    }
+
+.class3{
+    background-image: url("img.jpg.webp");
+    background-repeat: repeat-y;
+    background-position: right;
+    width: 100%;
+    height:200px;
+    border: solid 1px black;
+    
+}
+
+.class4{
+    background-color: green;
+    border: solid 1px black;
+    width: 100%;
+    height:200px;
+    color: white;
+    background-image: url("img.jpg.webp");
+    background-position: right top ;
+    background-repeat: no-repeat;
+}
+
+a:hover {color:#FF00FF;}
+.myclass11{text-decoration: none;}

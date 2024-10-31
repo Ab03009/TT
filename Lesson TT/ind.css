@@ -1,0 +1,26 @@
+#one:link {
+    text-decoration: none;
+    color:green;
+}   
+#one:hover {
+    color:blue;
+    font-size: 200%;
+}
+#sec:link {
+color:red;
+text-decoration: underline;
+background-color: green;
+}
+
+#green:visited {
+    color:black;
+}
+
+.old {list-style-type:square;}
+.olj {list-style-type:disc;}
+.olh {list-style-type:armenian;}
+.olz {list-style-type:upper-latin;}
+.ola {list-style-type:lower-greek; counter-reset: myCounter 2;}
+
+.tblinit td{border: solid 1px black;}
+.tbl1{border-collapse:collapse;}		

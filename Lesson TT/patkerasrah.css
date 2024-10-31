@@ -1,0 +1,32 @@
+.all{
+    display: flex;
+}
+div{
+    border: 3px solid black;
+    height: 300px;
+    width:300px;
+    float: left;
+    margin: 30px;
+    background-color: grey;
+    
+}
+div:hover{
+    color: green;
+}
+img{
+height: 200px;
+width: 280px;
+padding: 10px;
+/* margin-left: 115px;
+margin-top: 20px; */
+}   
+
+p{
+color: white;
+text-align: center;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
